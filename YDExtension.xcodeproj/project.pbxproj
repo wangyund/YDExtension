@@ -28,7 +28,7 @@
 		5A0C6AEB21CA29C5002DF67C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A0C6AED21CA29C5002DF67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A0C6AEE21CA29C5002DF67C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5A0C6B0221CA2A49002DF67C /* YDExtensionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDExtensionHeader.h; sourceTree = "<group>"; };
+		5A0C6B0221CA2A49002DF67C /* YDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDExtension.h; sourceTree = "<group>"; };
 		5A0C6B0421CA2A49002DF67C /* UIImage+YDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YDExtension.h"; sourceTree = "<group>"; };
 		5A0C6B0521CA2A49002DF67C /* UIImage+YDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YDExtension.m"; sourceTree = "<group>"; };
 		5A0C6B0721CA2A49002DF67C /* UIView+YDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YDExtension.h"; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		5A0C6B0121CA2A49002DF67C /* Header */ = {
 			isa = PBXGroup;
 			children = (
-				5A0C6B0221CA2A49002DF67C /* YDExtensionHeader.h */,
+				5A0C6B0221CA2A49002DF67C /* YDExtension.h */,
 			);
 			path = Header;
 			sourceTree = "<group>";

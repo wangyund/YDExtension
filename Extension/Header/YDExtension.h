@@ -6,10 +6,10 @@
 //  Copyright © 2018年 rowena. All rights reserved.
 //
 
-#ifndef YDExtensionHeader_h
-#define YDExtensionHeader_h
+#ifndef YDExtension_h
+#define YDExtension_h
 
 #import "UIView+YDExtension.h"
 #import "UIImage+YDExtension.h"
 
-#endif /* YDExtensionHeader_h */
+#endif /* YDExtension_h */
