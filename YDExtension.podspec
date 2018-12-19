@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/wangyund/YDExtension.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
   
-  s.public_header_files = 'Extension/Header/YDExtensionHeader.h'
-  s.source_files = 'Extension/Header/YDExtensionHeader.h'
+  s.public_header_files = 'Extension/Header/YDExtension.h'
+  s.source_files = 'Extension/Header/YDExtension.h'
 
   s.frameworks = 'UIKit','Foundation'  
   
