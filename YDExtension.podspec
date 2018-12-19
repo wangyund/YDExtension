@@ -5,8 +5,6 @@ Pod::Spec.new do |s|
   s.summary  = 'A delightful iOS and OS X YDExtension framework.'
   s.homepage = 'https://github.com/wangyund/YDExtension'
   s.social_media_url = 'https://github.com/wangyund/YDExtension'
-  s.ios.deployment_target = '8.0'
-  S.platform = :ios
   s.authors  = { 'wangyund' => 'wuyezhiguhun@163.com' }
   s.source   = { :git => 'https://github.com/wangyund/YDExtension.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
