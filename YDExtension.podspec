@@ -13,8 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Extension/Header/YDExtensionHeader.h'
 
   s.frameworks = 'UIKit','Foundation'  
-
-EOS
   
   s.subspec 'Image' do |ss|
     ss.source_files = 'Extension/Image/*.{h,m}'
