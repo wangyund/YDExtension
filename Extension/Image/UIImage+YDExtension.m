@@ -15,7 +15,7 @@
  * @pram color 待转换颜色
  * @return 返回转换后的图片
  */
-+ (UIImage *)yd_imageWithColor:(UIColor *)color {
++ (UIImage *)YDimageWithColor:(UIColor *)color {
     CGSize size = CGSizeMake(1, 1);
     if (!color || size.width <= 0 || size.height <= 0) return nil;
     CGRect rect = CGRectMake(0.0f, 0.0f, size.width, size.height);
@@ -26,6 +26,42 @@
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     UIGraphicsEndImageContext();
     return image;
+}
+
+/**
+ * 获取启动图 竖屏Image
+ * @return Image
+ */
++ (UIImage *)YDgetLaunchPortraitImage {
+    CGSize viewSize = [UIScreen mainScreen].bounds.size;
+    NSString *viewOrientation = @"Portrait";
+    NSString *launchImage = nil;
+    NSArray *imageDict = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
+    for (NSDictionary *dict in imageDict) {
+        CGSize imageSize = CGSizeFromString(dict[@"UILaunchImageSize"]);
+        if (CGSizeEqualToSize(imageSize, viewSize) && [viewOrientation isEqualToString:dict[@"UILaunchImageOrientation"]]) {
+            launchImage = dict[@"UILaunchImageName"];
+        }
+    }
+    return [UIImage imageNamed:launchImage];
+}
+
+/**
+ * 获取启动图 横屏Image
+ * @return Image
+ */
++ (UIImage *)YDgetLaunchLandscapeImage {
+    CGSize viewSize = [UIScreen mainScreen].bounds.size;
+    NSString *viewOrientation = @"Landscape";
+    NSString *launchImage = nil;
+    NSArray *imageDict = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
+    for (NSDictionary *dict in imageDict) {
+        CGSize imageSize = CGSizeFromString(dict[@"UILaunchImageSize"]);
+        if (CGSizeEqualToSize(imageSize, viewSize) && [viewOrientation isEqualToString:dict[@"UILaunchImageOrientation"]]) {
+            launchImage = dict[@"UILaunchImageName"];
+        }
+    }
+    return [UIImage imageNamed:launchImage];
 }
 
 @end
