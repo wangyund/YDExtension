@@ -15,7 +15,7 @@
  * @pram color 待转换颜色
  * @return 返回转换后的图片
  */
-+ (UIImage *)YDimageWithColor:(UIColor *)color {
++ (UIImage *)yd_imageWithColor:(UIColor *)color {
     CGSize size = CGSizeMake(1, 1);
     if (!color || size.width <= 0 || size.height <= 0) return nil;
     CGRect rect = CGRectMake(0.0f, 0.0f, size.width, size.height);
@@ -32,7 +32,7 @@
  * 获取启动图 竖屏Image
  * @return Image
  */
-+ (UIImage *)YDgetLaunchPortraitImage {
++ (UIImage *)yd_getLaunchPortraitImage {
     CGSize viewSize = [UIScreen mainScreen].bounds.size;
     NSString *viewOrientation = @"Portrait";
     NSString *launchImage = nil;
@@ -50,7 +50,7 @@
  * 获取启动图 横屏Image
  * @return Image
  */
-+ (UIImage *)YDgetLaunchLandscapeImage {
++ (UIImage *)yd_getLaunchLandscapeImage {
     CGSize viewSize = [UIScreen mainScreen].bounds.size;
     NSString *viewOrientation = @"Landscape";
     NSString *launchImage = nil;
