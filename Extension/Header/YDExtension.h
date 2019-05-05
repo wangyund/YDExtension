@@ -11,5 +11,6 @@
 
 #import "UIView+YDExtension.h"
 #import "UIImage+YDExtension.h"
+#import "UIColor+YDExtension.h"
 
 #endif /* YDExtension_h */

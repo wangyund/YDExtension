@@ -24,5 +24,10 @@ Pod::Spec.new do |s|
 
   end
 
+  s.subspec 'Color' do |ss|
+    ss.source_files = 'Extension/Color/*/{h,m}'
+
+  end
+
 
 end
