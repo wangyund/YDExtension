@@ -9,6 +9,8 @@
 #ifndef YDExtension_h
 #define YDExtension_h
 
+#import "YDStyle.h"
+
 #import "UIView+YDExtension.h"
 #import "UIImage+YDExtension.h"
 #import "UIColor+YDExtension.h"

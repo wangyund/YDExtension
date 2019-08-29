@@ -16,6 +16,7 @@
 		5A0C6B0921CA2A49002DF67C /* UIImage+YDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C6B0521CA2A49002DF67C /* UIImage+YDExtension.m */; };
 		5A0C6B0A21CA2A49002DF67C /* UIView+YDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A0C6B0821CA2A49002DF67C /* UIView+YDExtension.m */; };
 		5A99F9DF227ED16B005F7A22 /* UIColor+YDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99F9DE227ED16B005F7A22 /* UIColor+YDExtension.m */; };
+		5AFDEA0C2316891A008C45E1 /* YDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFDEA0B2316891A008C45E1 /* YDStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		5A0C6B0821CA2A49002DF67C /* UIView+YDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YDExtension.m"; sourceTree = "<group>"; };
 		5A99F9DD227ED16B005F7A22 /* UIColor+YDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YDExtension.h"; sourceTree = "<group>"; };
 		5A99F9DE227ED16B005F7A22 /* UIColor+YDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YDExtension.m"; sourceTree = "<group>"; };
+		5AFDEA0A2316891A008C45E1 /* YDStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDStyle.h; sourceTree = "<group>"; };
+		5AFDEA0B2316891A008C45E1 /* YDStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDStyle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				5A0C6B0121CA2A49002DF67C /* Header */,
+				5AFDEA09231688ED008C45E1 /* Style */,
 				5A99F9DC227ED131005F7A22 /* Color */,
 				5A0C6B0321CA2A49002DF67C /* Image */,
 				5A0C6B0621CA2A49002DF67C /* View */,
@@ -126,6 +130,15 @@
 				5A99F9DE227ED16B005F7A22 /* UIColor+YDExtension.m */,
 			);
 			path = Color;
+			sourceTree = "<group>";
+		};
+		5AFDEA09231688ED008C45E1 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				5AFDEA0A2316891A008C45E1 /* YDStyle.h */,
+				5AFDEA0B2316891A008C45E1 /* YDStyle.m */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +214,7 @@
 				5A0C6AE421CA29C3002DF67C /* ViewController.m in Sources */,
 				5A0C6AEF21CA29C5002DF67C /* main.m in Sources */,
 				5A0C6B0A21CA2A49002DF67C /* UIView+YDExtension.m in Sources */,
+				5AFDEA0C2316891A008C45E1 /* YDStyle.m in Sources */,
 				5A0C6B0921CA2A49002DF67C /* UIImage+YDExtension.m in Sources */,
 				5A99F9DF227ED16B005F7A22 /* UIColor+YDExtension.m in Sources */,
 				5A0C6AE121CA29C3002DF67C /* AppDelegate.m in Sources */,
