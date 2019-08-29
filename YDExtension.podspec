@@ -29,5 +29,10 @@ Pod::Spec.new do |s|
 
   end
 
+ s.subspec 'Style' do |ss|
+    ss.source_files = 'Extension/Style/*.{h,m}'
+
+  end
+
 
 end
